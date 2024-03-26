@@ -1,7 +1,7 @@
 public class LostBaggage {
     int id;
     String description;
-    Flight flight = new Flight();
+    Flight flight ;
     String status;
     Passenger owner = new Passenger();
 }
