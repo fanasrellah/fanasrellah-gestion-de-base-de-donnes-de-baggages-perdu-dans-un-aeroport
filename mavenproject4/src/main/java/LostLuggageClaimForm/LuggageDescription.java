@@ -35,7 +35,6 @@ public class LuggageDescription extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -63,6 +62,7 @@ public class LuggageDescription extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1280, 720));
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel1.setBackground(new java.awt.Color(249, 230, 230));
@@ -119,24 +119,6 @@ public class LuggageDescription extends javax.swing.JFrame {
             }
         });
 
-        jLabel19.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(163, 165, 229));
-        jLabel19.setText("Report");
-        jLabel19.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                jLabel19MouseClicked(evt);
-            }
-            public void mouseEntered(java.awt.event.MouseEvent evt) {
-                jLabel19MouseEntered(evt);
-            }
-            public void mouseExited(java.awt.event.MouseEvent evt) {
-                jLabel19MouseExited(evt);
-            }
-            public void mousePressed(java.awt.event.MouseEvent evt) {
-                jLabel19MousePressed(evt);
-            }
-        });
-
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
@@ -147,7 +129,6 @@ public class LuggageDescription extends javax.swing.JFrame {
                     .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 128, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addContainerGap(104, Short.MAX_VALUE))
@@ -165,16 +146,14 @@ public class LuggageDescription extends javax.swing.JFrame {
                 .addComponent(jLabel17)
                 .addGap(41, 41, 41)
                 .addComponent(jLabel18)
-                .addGap(34, 34, 34)
-                .addComponent(jLabel19)
-                .addGap(138, 138, 138))
+                .addGap(197, 197, 197))
         );
 
-        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 1, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(170, 170, 170));
         jLabel1.setText("Lost Luggage Claim Form");
 
-        jLabel2.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(128, 128, 128));
         jLabel2.setText("Personal");
         jLabel2.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -183,49 +162,53 @@ public class LuggageDescription extends javax.swing.JFrame {
             }
         });
 
-        jLabel3.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(128, 128, 128));
         jLabel3.setText("Contact ");
 
-        jLabel4.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(71, 75, 202));
         jLabel4.setText("Luggage   ");
 
-        jLabel5.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(128, 128, 128));
         jLabel5.setText(" Information");
 
-        jLabel6.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
+        jLabel6.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(128, 128, 128));
         jLabel6.setText(" Information");
 
-        jLabel7.setFont(new java.awt.Font("Yu Gothic UI Semilight", 1, 12)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(71, 75, 202));
         jLabel7.setText("Description ");
 
         jSeparator1.setForeground(new java.awt.Color(71, 75, 202));
 
         jTextField1.setBackground(new java.awt.Color(255, 163, 190));
+        jTextField1.setBorder(null);
         jTextField1.setPreferredSize(new java.awt.Dimension(252, 24));
 
         jTextField2.setBackground(new java.awt.Color(255, 163, 190));
+        jTextField2.setBorder(null);
         jTextField2.setPreferredSize(new java.awt.Dimension(252, 24));
 
-        jLabel8.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 12)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(128, 128, 128));
         jLabel8.setText("Number of Bags");
 
-        jLabel9.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 12)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel9.setForeground(new java.awt.Color(128, 128, 128));
         jLabel9.setText("Type of Bag(s)");
 
-        jLabel10.setFont(new java.awt.Font("Yu Gothic UI Semilight", 0, 12)); // NOI18N
+        jLabel10.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(128, 128, 128));
         jLabel10.setText("Color(s) of Bag(s)");
 
         jButton1.setBackground(new java.awt.Color(71, 75, 202));
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
         jButton1.setText("Done");
+        jButton1.setContentAreaFilled(false);
+        jButton1.setOpaque(true);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -233,6 +216,8 @@ public class LuggageDescription extends javax.swing.JFrame {
         });
 
         jButton2.setText("Back");
+        jButton2.setContentAreaFilled(false);
+        jButton2.setOpaque(true);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -240,28 +225,35 @@ public class LuggageDescription extends javax.swing.JFrame {
         });
 
         jTextField3.setBackground(new java.awt.Color(255, 163, 190));
+        jTextField3.setBorder(null);
         jTextField3.setPreferredSize(new java.awt.Dimension(252, 24));
 
         jTextField4.setBackground(new java.awt.Color(255, 163, 190));
+        jTextField4.setBorder(null);
         jTextField4.setPreferredSize(new java.awt.Dimension(252, 24));
 
+        jLabel11.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel11.setForeground(new java.awt.Color(128, 128, 128));
         jLabel11.setText("Brand (if any)");
 
+        jLabel12.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(128, 128, 128));
         jLabel12.setText("Distinguishing Features");
 
         jTextArea1.setBackground(new java.awt.Color(255, 163, 190));
         jTextArea1.setColumns(20);
         jTextArea1.setRows(5);
+        jTextArea1.setBorder(null);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jLabel13.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(128, 128, 128));
         jLabel13.setText("Contents (list a few key items)");
 
         jTextArea2.setBackground(new java.awt.Color(255, 163, 190));
         jTextArea2.setColumns(20);
         jTextArea2.setRows(5);
+        jTextArea2.setBorder(null);
         jScrollPane2.setViewportView(jTextArea2);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -273,13 +265,10 @@ public class LuggageDescription extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(244, 244, 244)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(jLabel1)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(91, 91, 91)
-                                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 405, Short.MAX_VALUE))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(91, 91, 91)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 169, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 315, Short.MAX_VALUE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(332, 332, 332)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -310,7 +299,10 @@ public class LuggageDescription extends javax.swing.JFrame {
                                 .addComponent(jTextField4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                 .addComponent(jLabel11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addComponent(jLabel12, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING)))
+                                .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.LEADING))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addGap(29, 29, 29)))
                         .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jPanel1Layout.setVerticalGroup(
@@ -367,6 +359,7 @@ public class LuggageDescription extends javax.swing.JFrame {
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 0, 1280, 720));
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
@@ -424,25 +417,6 @@ public class LuggageDescription extends javax.swing.JFrame {
         // TODO add your handling code here:
         jLabel18.setForeground(new Color(163,165,229));
     }//GEN-LAST:event_jLabel18MouseExited
-
-    private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
-        // TODO add your handling code here:
-
-    }//GEN-LAST:event_jLabel19MouseClicked
-
-    private void jLabel19MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseEntered
-        // TODO add your handling code here:
-        jLabel19.setForeground(Color.white);
-    }//GEN-LAST:event_jLabel19MouseEntered
-
-    private void jLabel19MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseExited
-        // TODO add your handling code here:
-        jLabel19.setForeground(new Color(163,165,229));
-    }//GEN-LAST:event_jLabel19MouseExited
-
-    private void jLabel19MousePressed(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MousePressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jLabel19MousePressed
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
         // TODO add your handling code here:
@@ -514,7 +488,6 @@ public class LuggageDescription extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
